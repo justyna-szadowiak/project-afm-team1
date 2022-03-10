@@ -117,7 +117,7 @@
 	}
 
 	body {
-		background: #f5f5f5;
+		background: #0c0c0c;
 	}
 
 	body, input, select, textarea {
@@ -2679,8 +2679,8 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #666;
-		border-radius: 6px;
+		background-color: green;
+		border-radius: 25px;
 		border: 0;
 		color: #ffffff;
 		cursor: pointer;
@@ -2891,7 +2891,7 @@
 				color: white;
 				font-weight: 400;
 				border: 0;
-				text-decoration: underline;
+				/* text-decoration: underline; */
 			}
 
 		#header nav {
@@ -3266,7 +3266,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #e89980;
+			color: green;
 		}
 
 		#cta input[type="text"],
@@ -3274,7 +3274,7 @@
 		#cta input[type="email"],
 		#cta select,
 		#cta textarea {
-			color: #ffffff;
+			color: green;
 			background: rgba(255, 255, 255, 0.15);
 			border: 0;
 		}
@@ -3838,25 +3838,25 @@
 
 	}
 
-#krakow {
+/* #krakow {
 		font-family: Quintessential-Regular;
-	}
+	} */
 
-	 .napish{
+	 .napis{
 		
 			background: 50% 100% / 50% 50% no-repeat
-						radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+						radial-gradient(ellipse at bottom, white, transparent, transparent);
 			-webkit-background-clip: text;
 			background-clip: text;
-			color: transparent;
-			font-family: "Source Sans Pro", sans-serif;
+			color: green;
+			/* font-family: "Source Sans Pro", sans-serif; */
 			animation: reveal 3000ms ease-in-out forwards 200ms,
 					   glow 2500ms linear infinite 2000ms;
 		}
 
 			@keyframes reveal {
 			  80%{
-				letter-spacing: 8px;
+				letter-spacing: 25px;
 			  }
 			  100% {
 				background-size: 300% 300%;
